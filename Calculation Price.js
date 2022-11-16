@@ -11,6 +11,7 @@ for(var i = 1; i <= qrt; i++)
     // total = total + parseInt(itemprice)
     // total = total + parseInt(itemprice) จนจบ loop
 
+    //12345
 }
 
   document.getElementById("result").innerHTML= total + " ฿"
