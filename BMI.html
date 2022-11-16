@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    แบบประเมินรูปร่างจากค่าดัชนีมวลกาย(BMI)
+    
+    
+</head> 
+<body>
+<p id="demo"> 
+    
+   <label>น้ำหนัก(kg)</label>
+   <input type="number" id="txtweight">
+
+    <label>ส่วนสูง(cm)</label>
+    <input type="number" id="txtheight">
+
+    
+    
+    <button onclick="getInputValue(document.getElementById('txtweight').value,document.getElementById('txtheight').value)">
+        Get your BMI!! </button>
+
+        <div id="BMI"></div>
+ 
+
+</p>
+    
+<script src="Project.js"></script>
+</body>
+</html>
